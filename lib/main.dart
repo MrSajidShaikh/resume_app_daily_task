@@ -61,7 +61,7 @@ class _UserInfoScreenState extends State<UserInfoScreen> {
               const SizedBox(height: 16.0),
               ElevatedButton(
                 onPressed: () {
-                  _showUserInfo(context);
+                  ShowUserInfo(context);
                 },
                 child: const Text('Submit'),
               ),
@@ -85,7 +85,7 @@ class _UserInfoScreenState extends State<UserInfoScreen> {
     );
   }
 
-  void _showUserInfo(BuildContext context) {
+  void ShowUserInfo(BuildContext context) {
     showDialog(
       context: context,
       builder: (BuildContext context) {
