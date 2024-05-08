@@ -1,14 +1,13 @@
-
-## List
+# List
 
 List is collection of multiple values which can have multiple datatype.
 List is an ordered collection of values, which contains index values to access it's inner attributes.
 List have indexes like arrays.
 
-```Declaration of list.
+Declaration of list.
  Syntax :  List variableName = [Values];
 
-```Example
+### Example
 
   void main() {
   
@@ -16,17 +15,20 @@ List have indexes like arrays.
 
     print(name[0]);
 }
-```
 
-```Length of list.
-   void main() {
+
+
+### Length of list.
+  
+  void main() {
     List name = ["Ankit", "A", "B", "C"];
   
     print(name.length);
 }
-```
-```To Add Element.
-    void main() {
+
+### To Add Element.
+   
+  void main() {
     List name = ["Sajid", "X", "Y", "Z"];
   
     print(name[0]);
@@ -35,9 +37,10 @@ List have indexes like arrays.
   
     print(name);
 }
-```
-```To add multiple values
-    void main() {
+
+### To add multiple values
+   
+void main() {
     List name = ["Sajid", "X", "Y", "Z"];
   
     print(name[0]);
@@ -46,9 +49,11 @@ List have indexes like arrays.
   
     print(name);
 }
-```
-```To insrt value
-    void main() {
+
+
+### To insrt value
+   
+void main() {
     List name = ["Sajid", "X", "Y", "Z"];
 
     print(name[0]);
@@ -57,9 +62,10 @@ List have indexes like arrays.
 
     print(name);
 }
-```
-```To insert multiple values
-    void main() {
+
+### To insert multiple values
+   
+void main() {
     List name = ["Sajid", "X", "Y", "Z"];
   
     print(name[0]);
@@ -68,9 +74,10 @@ List have indexes like arrays.
   
     print(name);
 }
-```
-```To know index of any value
-    void main() {
+
+### To know index of any value
+   
+void main() {
     List name = ["Sajid", "X", "Y", "Z"];
   
     print(name[0]);
@@ -79,9 +86,10 @@ List have indexes like arrays.
   
     print(i);
 }
-```
-```To remove value
-    void main() {
+
+### To remove value
+
+  void main() {
     List name = ["Sajid", "X", "Y", "Z"];
   
     print(name[0]);
@@ -90,9 +98,11 @@ List have indexes like arrays.
   
     print(name);
 }
-```
-```To remove value with help of index
-    void main() {
+
+
+### To remove value with help of index
+
+  void main() {
     List name = ["Sajid", "X", "Y", "Z"];
   
     print(name[0]);
@@ -102,34 +112,37 @@ List have indexes like arrays.
     print(name);
 }
 
-```
-```To Reverse list
-    void main() {
+
+### To Reverse list
+    
+void main() {
     List name = ["Sajid", "X", "Y", "Z"];
   
     print(name[0]);
   
     print(name.reversed.toList());
 }
-```
-```To Show Datatype
-    void main() {
+
+### To Show Datatype
+   
+void main() {
     List name = ["Sajid", "X", "Y", "Z"];
   
     print(name[0]);
   
     print(name.runtimeType);
 }
-```
-## Generics
+
+# Generics
 
 Generics will be used to fix the datatype in the list.
 fix any one data type in the collection data types.
 it can be applied to either data types, value or both.
 Example : List number = [10,20,30,40,50];
 
-```Example
-  import 'dart:io';
+### Example
+  
+import 'dart:io';
 
   void main() {
     List <String> name = [];
@@ -145,21 +158,22 @@ Example : List number = [10,20,30,40,50];
 
     print(name);
   }
-```
-## Map
+
+
+# Map
 
 Map is collection of values. Map is store data in key value pair. which can have different datatype.
 Map can be created using '{}'.
 
-```Syntax :
+Syntax :
   Map mapName = {
   key1 : value1, 
   key2 : value2, 
   ... 
   keyN : valueN, 
   };
-```
-```Example.
+### Example.
+
    void main() {
     Map emp = {
       'name': "Sajid",
@@ -172,13 +186,14 @@ Map can be created using '{}'.
       print("${key} : ${value}");
     });
   }
-```
-```List of Map.
+
+### List of Map.
+
   void main() {
  
   List myData = [
     {
-      'name': "Ravi",
+      'name': "Sajid",
       'age': 20,
       'per': 89.23,
       'salary': 15000,
@@ -204,13 +219,14 @@ Map can be created using '{}'.
     print("");
   });
 }
-```
 
-## Status Bar
 
-In Build Context (Globally) :
 
-```.
+# Status Bar
+
+### In Build Context (Globally) :
+
+
   class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -224,11 +240,12 @@ In Build Context (Globally) :
     );
   }
 }
-```
 
- In AppBar :
 
-```
+
+ ### In AppBar :
+
+
   appBar: AppBar(
         backgroundColor: Colors.blueAccent,
         toolbarHeight: 80,
@@ -236,4 +253,3 @@ In Build Context (Globally) :
           statusBarColor: Colors.green
         )
       ),
-```
