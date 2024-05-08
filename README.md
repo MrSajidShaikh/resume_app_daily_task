@@ -7,7 +7,9 @@ List have indexes like arrays.
 Declaration of list.
  Syntax :  List variableName = [Values];
 
-### Example
+## Example
+
+```bash
 
   void main() {
   
@@ -15,17 +17,20 @@ Declaration of list.
 
     print(name[0]);
 }
+```
 
 
 
-### Length of list.
-  
+## Length of list.
+
+  ```bash
   void main() {
     List name = ["Ankit", "A", "B", "C"];
   
     print(name.length);
 }
 
+```
 ### To Add Element.
    
   void main() {
@@ -37,6 +42,7 @@ Declaration of list.
   
     print(name);
 }
+```bash
 
 ### To add multiple values
    
@@ -50,8 +56,11 @@ void main() {
     print(name);
 }
 
+```
 
 ### To insrt value
+
+```bash
    
 void main() {
     List name = ["Sajid", "X", "Y", "Z"];
@@ -62,9 +71,11 @@ void main() {
 
     print(name);
 }
+```
 
 ### To insert multiple values
-   
+
+```bash
 void main() {
     List name = ["Sajid", "X", "Y", "Z"];
   
@@ -74,8 +85,10 @@ void main() {
   
     print(name);
 }
+```
 
 ### To know index of any value
+```bash
    
 void main() {
     List name = ["Sajid", "X", "Y", "Z"];
@@ -86,8 +99,10 @@ void main() {
   
     print(i);
 }
+```
 
 ### To remove value
+```bash
 
   void main() {
     List name = ["Sajid", "X", "Y", "Z"];
@@ -98,9 +113,11 @@ void main() {
   
     print(name);
 }
-
+```
 
 ### To remove value with help of index
+
+```bash
 
   void main() {
     List name = ["Sajid", "X", "Y", "Z"];
@@ -111,9 +128,10 @@ void main() {
   
     print(name);
 }
-
+```
 
 ### To Reverse list
+```bash
     
 void main() {
     List name = ["Sajid", "X", "Y", "Z"];
@@ -122,9 +140,12 @@ void main() {
   
     print(name.reversed.toList());
 }
+````
 
 ### To Show Datatype
-   
+
+```bash
+
 void main() {
     List name = ["Sajid", "X", "Y", "Z"];
   
@@ -132,6 +153,8 @@ void main() {
   
     print(name.runtimeType);
 }
+
+```
 
 # Generics
 
@@ -141,6 +164,8 @@ it can be applied to either data types, value or both.
 Example : List number = [10,20,30,40,50];
 
 ### Example
+
+```bash
   
 import 'dart:io';
 
@@ -159,6 +184,7 @@ import 'dart:io';
     print(name);
   }
 
+```
 
 # Map
 
@@ -166,13 +192,17 @@ Map is collection of values. Map is store data in key value pair. which can have
 Map can be created using '{}'.
 
 Syntax :
+```bash
   Map mapName = {
   key1 : value1, 
   key2 : value2, 
   ... 
   keyN : valueN, 
   };
+```
+
 ### Example.
+```bash
 
    void main() {
     Map emp = {
@@ -187,13 +217,17 @@ Syntax :
     });
   }
 
+```
+
 ### List of Map.
+```bash
+
 
   void main() {
  
   List myData = [
     {
-      'name': "Sajid",
+      'name': "Ravi",
       'age': 20,
       'per': 89.23,
       'salary': 15000,
@@ -220,12 +254,13 @@ Syntax :
   });
 }
 
-
+```
 
 # Status Bar
 
 ### In Build Context (Globally) :
 
+```bash
 
   class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -241,9 +276,11 @@ Syntax :
   }
 }
 
-
+```
 
  ### In AppBar :
+
+```bash
 
 
   appBar: AppBar(
@@ -253,3 +290,4 @@ Syntax :
           statusBarColor: Colors.green
         )
       ),
+```
