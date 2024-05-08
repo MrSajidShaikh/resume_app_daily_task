@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:resume_app_daily_task/utils/routes.dart';
+import '../utils/routes.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -12,9 +13,10 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          'HomeScreen'
-        ),
+        backgroundColor: Colors.blueAccent,
+        toolbarHeight: 80,
+        systemOverlayStyle:
+        const SystemUiOverlayStyle(statusBarColor: Colors.green),
       ),
     );
   }
