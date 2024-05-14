@@ -294,7 +294,7 @@ Syntax :
 
 #
 
-<h3 align="center"> 1. EntryPage </h3>
+<h3 align="center"> EntryPage </h3>
 
 ###
 
@@ -307,7 +307,7 @@ Syntax :
 
 #
 
-<h3 align="center"> 2. LogInPage </h3>
+<h3 align="center"> LogInPage </h3>
 
 ###
 
@@ -320,11 +320,71 @@ Syntax :
 ###
 
 
-<h3 align="center"> 3. App </h3>
+<h3 align="center">  App </h3>
 
 ###
 
 <div align="center">
 <video src = "https://github.com/mrsajidshaikh/resume_app_daily_task/assets/149478269/7a6d5aaf-8637-45b5-b039-cae693ee2a7b">
+
+###
+
+<h3 align="center">  EmailScreen </h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+<div align="center">
+<img src = "https://github.com/MrSajidShaikh/resume_app_daily_task/assets/149478269/b6d009a4-80b8-41ef-bc71-6e18bb29975e" width = 22% height = 35%>
+
+###
+<div align="center">
+<a href="https://github.com/MrSajidShaikh/resume_app_daily_task/blob/master/lib/Screens/Google/EmailScreen.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div
+
+ #
+
+ <h3 align="center"> PasswordScreen </h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+<div align="center">
+<img src = "https://github.com/MrSajidShaikh/resume_app_daily_task/assets/149478269/9a65abd5-7249-4bc2-afa0-8b9c07b4ddb1" width = 22% height = 35%>
+
+###
+<div align="center">
+<a href="https://github.com/MrSajidShaikh/resume_app_daily_task/blob/master/lib/Screens/Google/PasswordScreen.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div
+
+ #
+
+  <h3 align="center"> SuccessfulScreen </h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+<div align="center">
+<img src = "https://github.com/MrSajidShaikh/resume_app_daily_task/assets/149478269/b4f2afe1-939c-421a-9285-979ee70a43fc" width = 22% height = 35%>
+
+###
+<div align="center">
+<a href="https://github.com/MrSajidShaikh/resume_app_daily_task/blob/master/lib/Screens/Google/SuccessfulScreen.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div
+
+ #
+
+<h3 align="center"> 7. App </h3>
+
+###
+
+<div align="center">
+<video src = "https://github.com/mrsajidshaikh/e_commrce/assets/149478269/c0676064-9380-4f07-a00d-621583fa70d2">
 
 ###
