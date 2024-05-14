@@ -363,7 +363,7 @@ Syntax :
 
  #
 
-  <h3 align="center"> SuccessfulScreen </h3>
+<h3 align="center"> SuccessfulScreen </h3>
 
 ###
 
