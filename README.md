@@ -291,3 +291,40 @@ Syntax :
         )
       ),
 ```
+
+#
+
+<h3 align="center"> 1. EntryPage </h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+<div align="center">
+<img src = "https://github.com/mrsajidshaikh/resume_app_daily_task/assets/149478269/1e94b5d3-1bf6-4add-ac61-184c3df192f5" width = 22% height = 35%>
+
+
+#
+
+<h3 align="center"> 2. LogInPage </h3>
+
+###
+
+<div align="center">
+<img src = "https://github.com/mrsajidshaikh/resume_app_daily_task/assets/149478269/e5337b8f-f91e-461d-b397-4dfa2a260e08" width = 22% height = 35%>
+
+
+<h1 align="left"></h1>
+
+###
+
+
+<h3 align="center"> 3. App </h3>
+
+###
+
+<div align="center">
+<video src = "https://github.com/mrsajidshaikh/resume_app_daily_task/assets/149478269/7a6d5aaf-8637-45b5-b039-cae693ee2a7b">
+
+###
