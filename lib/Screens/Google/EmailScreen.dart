@@ -73,7 +73,7 @@ class _EmailScreenState extends State<EmailScreen> {
                             if (value!.isEmpty) {
                               return 'Enter an email or phone number !';
                             } else if (!value.contains('@gmail.com')) {
-                              return '"@gmail.com"is not Perfact !';
+                              return '"@gmail.com" is not used !';
                             } else if (value.contains(' ')) {
                               return 'Space is not Allow !';
                             } else if (value.length <= 10) {
