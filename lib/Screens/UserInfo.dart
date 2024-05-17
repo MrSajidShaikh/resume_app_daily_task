@@ -24,13 +24,13 @@ class UserInfoScreen extends StatefulWidget {
   const UserInfoScreen({super.key});
 
   @override
-  _UserInfoScreenState createState() => _UserInfoScreenState();
+  UserInfoScreenState createState() => UserInfoScreenState();
 }
 
-class _UserInfoScreenState extends State<UserInfoScreen> {
+class UserInfoScreenState extends State<UserInfoScreen> {
   final Map<String, String> userInfo = {};
 
-  void _setUserInfo(String field, String value) {
+  void setUserInfo(String field, String value) {
     setState(() {
       userInfo[field] = value;
     });
@@ -61,7 +61,7 @@ class _UserInfoScreenState extends State<UserInfoScreen> {
               const SizedBox(height: 16.0),
               ElevatedButton(
                 onPressed: () {
-                  _showUserInfo(context);
+                  showUserInfo(context);
                 },
                 child: const Text('Submit'),
               ),
@@ -80,12 +80,12 @@ class _UserInfoScreenState extends State<UserInfoScreen> {
           labelText: field,
           hintText: hint,
         ),
-        onChanged: (value) => _setUserInfo(field, value),
+        onChanged: (value) => setUserInfo(field, value),
       ),
     );
   }
 
-  void _showUserInfo(BuildContext context) {
+  void showUserInfo(BuildContext context) {
     showDialog(
       context: context,
       builder: (BuildContext context) {

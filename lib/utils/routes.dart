@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:resume_app_daily_task/Screens/Google/EmailScreen.dart';
+import 'package:resume_app_daily_task/Screens/UserInfo.dart';
 import 'package:resume_app_daily_task/Screens/image_picker.dart';
 import '../Screens/Google/PasswordScreen.dart';
 import '../Screens/Google/SuccessfulScreen.dart';
@@ -11,6 +12,7 @@ class AppRoutes {
   // '/': (context) => const EmailScreen(),
   // '/password': (context) => const PasswordScreen(),
   // '/success': (context) => const SuccessfulScreen(),
-    '/' : (context) => const UploadImagePicker(),
+  //   '/' : (context) => const UploadImagePicker(),
+    '/' : (context) => const UserInfoApp(),
   };
 }
