@@ -24,7 +24,7 @@ class _RegistrationState extends State<Registration> {
       appBar: AppBar(
         backgroundColor: Colors.blue,
         title: const Text(
-          'Regstration Form',
+          'Registration Form',
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
@@ -87,12 +87,13 @@ class _RegistrationState extends State<Registration> {
                   controller: txtsurname,
                   validator: (value) {
                     if (value!.isEmpty) {
-                      return 'value must be required';
+                      return 'value required';
                     }
                     // if (!RegExp(r'\d').hasMatch(value))
                     if (RegExp(r'\d').hasMatch(value)) {
-                      return 'Only Entre Text';
+                      return 'Entre Only Text';
                     }
+                    return null;
                   },
                   decoration: InputDecoration(
                     border: OutlineInputBorder(
@@ -114,12 +115,13 @@ class _RegistrationState extends State<Registration> {
                   controller: txtname,
                   validator: (value) {
                     if (value!.isEmpty) {
-                      return 'value must be required';
+                      return 'value required';
                     }
                     // if (!RegExp(r'\d').hasMatch(value))
                     if (RegExp(r'\d').hasMatch(value)) {
-                      return 'Only Entre Text';
+                      return 'Entre Only Text';
                     }
+                    return null;
                   },
                   decoration: InputDecoration(
                     border: OutlineInputBorder(
@@ -175,10 +177,11 @@ class _RegistrationState extends State<Registration> {
                   controller: txtnumber,
                   validator: (value) {
                     if (value!.isEmpty) {
-                      return 'value must be required';
+                      return 'value required';
                     } else if (value.length <= 10) {
-                      return 'Number required 10 digits';
+                      return '10 digits required ';
                     }
+                    return null;
                   },
                   decoration: InputDecoration(
                     border: OutlineInputBorder(
@@ -357,9 +360,6 @@ class _RegistrationState extends State<Registration> {
 List<String> check = [];
 String Gender = 'Male';
 List<bool> hobby = [false, false, false];
-// bool c= false;
-// bool cpp= false;
-// bool cqq= false;
 String? surname;
 String? name;
 String? number;
