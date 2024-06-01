@@ -380,7 +380,7 @@ Syntax :
 
  #
 
-<h3 align="center"> 7. App </h3>
+<h3 align="center">  App </h3>
 
 ###
 
@@ -388,3 +388,13 @@ Syntax :
 <video src = "https://github.com/mrsajidshaikh/e_commrce/assets/149478269/c0676064-9380-4f07-a00d-621583fa70d2">
 
 ###
+
+<h3 align="center"> Dialogue Box </h3>
+
+###
+
+<div align="center">
+<video src = "https://github.com/MrSajidShaikh/resume_app_daily_task/assets/149478269/2077bb4b-d92a-4c9b-9e25-0e23f544d7f0">
+
+###
+
