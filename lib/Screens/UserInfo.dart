@@ -57,7 +57,6 @@ class UserInfoScreenState extends State<UserInfoScreen> {
               _buildTextField("Occupation", "Enter your occupation"),
               _buildTextField("Education", "Enter your education"),
               _buildTextField("Hobbies", "Enter your hobbies"),
-              _buildTextField("Favorite Color", "Enter your favorite color"),
               const SizedBox(height: 16.0),
               ElevatedButton(
                 onPressed: () {
